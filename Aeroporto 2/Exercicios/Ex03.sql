@@ -2,4 +2,4 @@
 SELECT r.RouteID, r.Duration
 FROM airport a, route r
 WHERE a.AirportCode = 'LHR'
-	AND r.Origin = a.AirportID
+	AND r.Origin = a.AirportID;

@@ -2,4 +2,4 @@
 SELECT a.AirportCode, a.AirportName
 FROM airport a
 WHERE a.CountryCode = 'ES'
-ORDER BY a.AirportCode
+ORDER BY a.AirportCode;

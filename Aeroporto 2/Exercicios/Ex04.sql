@@ -4,4 +4,4 @@ FROM airport a1, airport a2, route r
 WHERE
 	a1.AirportID = r.Origin AND
     a2.AirportID = r.Destination
-ORDER BY a1.AirportCode, a2.AirportCode
+ORDER BY a1.AirportCode, a2.AirportCode;
