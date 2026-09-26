@@ -2,4 +2,4 @@
 SELECT r.RouteID, r.Origin, r.Destination
 FROM route r JOIN airport a ON r.Origin = a.AirportID
 WHERE a.AirportCode = 'LHR' OR
-	a.AirportCode = 'AMS'
+	a.AirportCode = 'AMS';
