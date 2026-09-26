@@ -3,4 +3,4 @@ SELECT f.FlightID
 FROM flight f
 EXCEPT
 SELECT p.FlightID
-FROM pax p
+FROM pax p;
