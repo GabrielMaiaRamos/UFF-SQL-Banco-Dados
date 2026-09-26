@@ -3,4 +3,4 @@ SELECT r.RouteID, a1.AirportCode AS Origem, a2.AirportCode AS Destino
 FROM route r 
         INNER JOIN airport a1 ON r.Origin = a1.AirportID
         INNER JOIN airport a2 ON r.Destination = a2.AirportID
-ORDER BY a1.AirportCode, a2.AirportCode
+ORDER BY a1.AirportCode, a2.AirportCode;
