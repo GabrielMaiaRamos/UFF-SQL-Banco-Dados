@@ -2,4 +2,4 @@
 INSERT INTO DEPTO_LOCALIZACOES
 VALUES ((SELECT cod_depto
 		FROM DEPARTAMENTO
-		WHERE nome = 'Pesquisa'), 'Stadord')
+		WHERE nome = 'Pesquisa'), 'Stadord');
